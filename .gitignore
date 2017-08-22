@@ -1,3 +1,4 @@
 #Ignoring .idea directory for check-in to master
 
 .idea/**
+node_modules/**
