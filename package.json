@@ -4,19 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/novusratoon/projectEuler-react.git"
   },
   "keywords": [],
-  "author": "Dnyaneshwar BHalerao",
+  "author": "Dnyaneshwar Bhalerao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/novusratoon/projectEuler-react/issues"
   },
   "homepage": "https://github.com/novusratoon/projectEuler-react#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
