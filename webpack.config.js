@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   output:{
-    filename:'bundle.js',
+    filename:'assets/script/bundle.js',
     path:__dirname + '/build'
   },
   plugins: [HTMLWebpackPluginConfig]
