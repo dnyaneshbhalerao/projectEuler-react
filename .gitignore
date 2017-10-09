@@ -1,4 +1,10 @@
-#Ignoring .idea directory for check-in to master
+#Ignoring node_modules for check-in to master
 
-.idea/**
 node_modules/**
+
+#Ignoring build for check-in to master
+
+build/**
+
+#Ignoring build for check-in to master
+./.idea/**
