@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack && cp -r ./client/assets ./build",
-    "start": "node ./server/bin/www"
+    "start": "node ./server/src/bin/www"
   },
   "repository": {
     "type": "git",
